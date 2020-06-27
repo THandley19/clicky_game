@@ -1,16 +1,17 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
+import "../Jumbotron/style.css";
 
-export default function Header() {
+function Jumbotron(props) {
   return (
-    <Jumbotron>
-      <div>
-        <h1>Welcome to Giftastic!</h1>
-        <p>
-          In the search bar below, enter any topic that you would like to gifs
-          about. You can even favorite them to view later!
-        </p>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 className="header-text">{props.title}</h1>
+        <h3>Try not to click the same image twice!</h3>
+        <h2>{props.message}</h2>
+        <h2>Your Score: {props.userScore}</h2>
       </div>
-    </Jumbotron>
+    </div>
   );
 }
+
+export default Jumbotron;
