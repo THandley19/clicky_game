@@ -3,7 +3,7 @@ import "./App.css";
 import Jumbotron from "./components/Jumbotron/";
 import Cards from "./components/Cards/";
 import { Container, Row, Col } from "./components/Grid/index";
-
+import images from "./images.json";
 export default class App extends Component {
   state = {
     userScore: 0,
