@@ -24,9 +24,9 @@ export default class App extends Component {
       clickedImages.push(id);
     }
     if (clickedImages.length === 12) {
-      this.setState({
-        score: 12,
-        status: "You Won! Click to play again!",
+      return this.setState({
+        userScore: 12,
+        message: "You Won! Click to play again!",
         clickImages: [],
       });
     }
