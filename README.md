@@ -1,15 +1,11 @@
-# Giftastic
+# Clicky Game
 
-Giftastic is an app that allows users to search for Gifs and "favorite" them to view at a later date.
+Clicky game is an application that tests user memory. Users have to try and select all 12 pictures in a row without selecting the same one twice.
 
 ## Tech Used
 
-- Node
-- Express
-- MongoDB / Mongoose
 - React
-- React-Bootstrap
 
 ## Live Demo
 
-https://giftastic-v2.herokuapp.com/
+https://clicky-game-thandley.herokuapp.com/
